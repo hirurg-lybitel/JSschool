@@ -1,4 +1,10 @@
-# JSschool
+<h1 align="center">JSschool</h1>
+<p align="center">
+  
+  <img src="https://user-images.githubusercontent.com/11502258/161816072-0f3a81d6-fe0e-46da-8d31-51e87614ca63.png">
+</p>
+
+# Что это?
 Набор разнообразных задач для освоения основных механик JavaScript.
 
 # Инструкция
