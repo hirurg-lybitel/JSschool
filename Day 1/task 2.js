@@ -6,11 +6,14 @@
 
 
 // unit: [byte, Kb, Mb, Gb]
+
+
 function calcSize(size = 0, unit) {
+
    let number = size;
 
    function getNumber(num, degree) {
-      return num * 1024^degree;
+      return num * 1024 ^ degree;
    };
 
    if (unit === 'Kb') {
@@ -28,5 +31,7 @@ function calcSize(size = 0, unit) {
 
    return number;
 }
-const result = calcSize(1);
+
+
+const result = calcSize(120, 'Mb');
 console.log(`amount of bytes is ${result}`);
