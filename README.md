@@ -13,7 +13,8 @@
 3. Чтобы запустить файл нажать ПКМ и Run Code или ```Ctrl + Alt + N```.
 
 # Теоретический материал
-- [Debug (отладка кода)](https://code.visualstudio.com/docs/editor/debugging)
+- Debug (отладка кода)
+  - [гайд](https://code.visualstudio.com/docs/editor/debugging) 
 - **Циклы**
   - [ссылка 1](https://learn.javascript.ru/while-for)
   - [ссылка 2](https://developer.mozilla.org/ru/docs/Web/JavaScript/Guide/Loops_and_iteration)
