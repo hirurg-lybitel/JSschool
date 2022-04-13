@@ -4,10 +4,11 @@
   * @param {Array} array - Массив любых элементов
   * @returns {Array}
 */
-function returnArr() {
-  let count = [1, 2, 3];
-  const reversed = count.reverse();
-  return reversed;
+function returnArr(array) {
+  const reversedArr = [];
+  for (let i = array.length - 1, j = 0; i >= 0; i--, j++) {
+    reversedArr[j] = array[i];
+  }
+  return reversedArr;
 }
-console.log(returnArr());
-
+console.log(returnArr([4, 5, 6]));

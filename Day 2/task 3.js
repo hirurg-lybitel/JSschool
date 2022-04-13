@@ -5,3 +5,9 @@
   * @param {Array} array - Массив любых элементов
   * @returns {Array}
 */
+
+function clearArr(array) {
+  array = array.filter(n => n);
+  return array;
+}
+console.log(clearArr([0, 1, false, 2, undefined, '', null, 3, null]));

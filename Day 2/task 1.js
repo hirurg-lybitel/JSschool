@@ -19,3 +19,8 @@ function getArr(arraySize, value) {
 console.log(getArr(6, 'a'));
 
 
+
+let object = {
+  name: 'вася',
+  id: 1
+};

@@ -6,3 +6,12 @@
   * @param {number} endNum - конец диапазона
   * @returns {Array}
 */
+function createArr(startNum, endNum) {
+  let arr = [];
+  
+  for (let i = startNum, j = 0; i <= endNum; i++, j++) {
+    arr[j] = i;
+  }
+  return arr;
+}
+console.log(createArr(11, 16))

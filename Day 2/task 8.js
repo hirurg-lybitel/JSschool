@@ -6,3 +6,10 @@
   * @param {Array} value - исходный массив
   * @returns {string}
 */
+
+function changeArr(text, value) {
+
+  value.splice(0, 1, text);
+  return value;
+}
+console.log(changeArr('Пока', ['Привет, ', 'мир', '!']));

@@ -5,3 +5,22 @@
   * @param {Array} array - массив, значения которого массивы пар
   * @returns {Array}
 */
+
+let obj = {};
+const arr = [
+  ['a', 1], 
+  ['b', 2], 
+  ['c', 3]
+];
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++){
+    if (j == 0) {
+      // obj[arr[i][j]];
+    } else {
+      obj[arr[i][0]] = arr[i][j];
+    }
+  }
+}
+
+console.log(obj);

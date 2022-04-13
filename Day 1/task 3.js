@@ -9,3 +9,14 @@ function getSquare(height, width) {
    return height * width;
 }
 console.log(getSquare(3, 6));
+
+
+function getArr(size, value) {
+   let arr = [];
+   for (let i = 1; i <= size; i++) {
+      arr[i] = value;
+   }
+   return arr;
+}
+
+console.log(getArr(5, 'hui'));
