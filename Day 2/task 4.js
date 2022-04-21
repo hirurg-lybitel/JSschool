@@ -15,12 +15,10 @@ const arr = [
 
 for (let i = 0; i < arr.length; i++) {
   for (let j = 0; j < arr[i].length; j++){
-    if (j == 0) {
-      // obj[arr[i][j]];
-    } else {
+    
       obj[arr[i][0]] = arr[i][j];
     }
   }
-}
+
 
 console.log(obj);

@@ -5,3 +5,21 @@
   * @param {number} power - степень
   * @returns {number}
 */
+
+function getGrade(n, m) {
+  let result = 1;
+  for (let i = 1; i <= m; i++) {
+
+    result = result * n;
+
+
+  }
+  return result;
+
+
+
+
+}
+console.log(getGrade(5, 3));
+
+
