@@ -4,14 +4,26 @@
   * Оформить в виде столбцов где выводятся множители и результат.
 */
 
-// for (let i = 1; i <= 10; i++) {
-//   console.log('');
-//   for (let j = 1; j <= 10; j++) {
-//     console.log(`${i}*${j} = ${i * j}`);
 
-//   }
-// }
+const table = [];
+
+// { multiply1: 1, multiply2: 2, result: 2 };
+for (let i = 1; i <= 10; i++) {
 
 
 
+  for (let j = 1; j <= 10; j++) {
 
+    table.push({
+      multiply1: i,
+      multiply2: j,
+      result: i * j,
+
+    });
+  };
+  table.push({});
+
+
+};
+
+console.table(table);

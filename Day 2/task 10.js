@@ -5,7 +5,12 @@
 */
 
 let search = 'Angular';
-let obj = { php: 'hello', css: 'world', price: 111.11, js: ['jQuery', 'Angular', 'React'] };
+let obj = { 
+  php: 'hello', 
+  css: 'world', 
+  price: 111.11, 
+  js: ['jQuery', 'Angular', 'React']
+};
 
 for (key in obj) {
   let value = obj[key];
