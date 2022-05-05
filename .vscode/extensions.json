@@ -2,6 +2,7 @@
     "recommendations": [
         "ms-vsliveshare.vsliveshare",
         "formulahendry.code-runner",
-        "eamodio.gitlens"
+        "eamodio.gitlens",
+        "ritwickdey.LiveServer"
     ]
 }
