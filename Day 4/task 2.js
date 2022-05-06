@@ -6,3 +6,16 @@
   * @param {string} lang - язык
   * @returns {Array}
 */
+
+const getDayName = (lang) => {
+  const arr = [
+    ['en', 'Mn', 'Ts', 'Wd', 'Th', 'Fr', 'St', 'Sn'],
+    ['ru', 'Пн', 'Вт', 'Ср', 'Чт', 'Пт', 'Сб', 'Вс']
+  ];
+
+  const arr2 = arr.filter((item) => item[0] === lang);
+  arr2[0].splice(0, 1);
+  return arr2[0];
+};
+
+console.log(getDayName('en'));

@@ -7,10 +7,7 @@
 
 
 function getSeason(number) {
-
-
-
-  if (number > 0 && number < 2 || number === 12) {
+  if (number > 0 && number <= 2 || number === 12) {
     return 'Winter';
   };
   if (number >= 3 && number <= 5) {
@@ -19,10 +16,13 @@ function getSeason(number) {
   if (number >= 6 && number <= 8) {
     return 'Summer';
   }
+  if (number <= 0 || number > 12) {
+    return 'neverno';
+  }
   else {
     return 'Fall';
   };
 
 };
 
-console.log(getSeason(1));
+console.log(getSeason(0));

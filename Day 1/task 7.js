@@ -19,4 +19,4 @@ function calcMin(a, b) {
       return a;
    }
 }
-console.log(calcMin());
+console.log(calcMin(3, 2));

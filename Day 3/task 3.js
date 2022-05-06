@@ -7,7 +7,7 @@
 
 const table = [];
 
-// { multiply1: 1, multiply2: 2, result: 2 };
+
 for (let i = 1; i <= 10; i++) {
 
 
