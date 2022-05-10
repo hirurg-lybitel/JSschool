@@ -1,25 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+
+<head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="src/style.css">
-  </head>
-  <body>
+</head>
+
+<body>
     <div>
         <h1 id="header"></h1>
         <div>
             <div>
                 <p><b>Число 1</b></p>
-                <input 
-                    type="number" 
-                    id="inputNum1" 
-                    oninput="handleNum1Change(event)"
-                >
+                <input type="number" id="inputNum1" oninput="handleNum1Change(event)">
             </div>
             <div>
                 <p><b>Число 2</b></p>
-                <input type="number" id="inputNum2">            
+                <input type="number" id="inputNum2">
             </div>
         </div>
         <div>
@@ -28,10 +26,14 @@
         <div>
             <p><b>Результат:</b></p>
             <input type="number" id="result">
-        </div>        
+        </div>
+        <div>
+            <input type="button" value="очистить" class="button" id="clear">
+        </div>
     </div>
 
-    
+
     <script src="src/script.js"></script>
-  </body>
+</body>
+
 </html>
