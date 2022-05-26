@@ -23,3 +23,6 @@ function getGrade(n, m) {
 console.log(getGrade(5, 3));
 
 
+
+
+
