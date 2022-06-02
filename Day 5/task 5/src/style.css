@@ -1,0 +1,56 @@
+body {
+   background-color: black;
+}
+
+.counter__inner {
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translateX(-50%) translateY(-50%);
+   color: #17D4FE;
+   font-size: 40px;
+   font-family: Orbitron;
+   letter-spacing: 7px;
+   text-align: center;
+}
+
+.result-div {
+   font-size: 70px;
+   color: #fff;
+   margin-bottom: 30px;
+}
+
+.buttons {}
+
+.btn {
+   display: inline-block;
+   padding: 10px;
+   width: 120px;
+   border-radius: 5px;
+   font-size: 18px;
+   font-family: Orbitron;
+   text-transform: uppercase;
+   font-weight: 700;
+   text-align: center;
+   cursor: pointer;
+   color: rgb(2, 31, 35);
+   transition: all 0.4s;
+}
+
+.btn:hover {
+   background-color: #4edcfc;
+   transform: scale(1.1);
+}
+
+.result-div__decrease {
+   color: rgb(140, 0, 255);
+
+}
+
+.result-div__reset {
+   color: #fff;
+}
+
+.result-div__increase {
+   color: rgb(243, 109, 109);
+}
